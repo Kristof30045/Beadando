@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>név</title>
+        <link href='https://fonts.googleapis.com/css?family=Bungee Spice' rel='stylesheet'> 
+        <link rel="stylesheet" href="style.css">
+            
+    </head>
+<body>
+
+    <div class="topnav" id="myTopnav">
+  <a href="index.html">főoldal</a>
+  <a href="név.html" class="active">név</a>
+  <a href="kollázs.html">kollázs</a>
+  <a href="zászló.html">zászló</a>
+  <a href="órarend.html">órarend</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  </a>
+</div>
+<div id="h">
+  <h1>Kanyog Kristóf</h1>
+  <h2>Kanyog Kristóf</h2>
+  <h3>Kanyog Kristóf</h3>
+  <h4>Kanyog Kristóf</h4>
+  <h5>Kanyog Kristóf</h5>
+  <h6>Kanyog Kristóf</h6>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</body>
+</html>
